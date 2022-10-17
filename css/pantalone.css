@@ -1,0 +1,166 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+background-color:black;
+}  
+.menu_bar{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 50px;
+    gap: 1rem;
+ }
+ .menu_bar{
+     color: aqua;
+     transition: all 3s ease-in;
+ }
+
+
+
+
+header h1{
+        color:aqua;
+        font-size: 60px;
+        font-style: oblique;
+        font-weight: 200;
+        text-align: center;
+    }
+header nav ul li{
+     list-style: none;
+ }
+      
+
+    header nav ul li a{
+        text-decoration: solid;
+         color:aqua;
+         font-style: obliqueS;
+         font-size: 20px;
+          margin: 3%;
+  }
+      
+      .hero h2{   
+        text-decoration: solid; 
+        color:aqua;
+        font-style: oblique;
+        font-size: 45px;
+        text-align: center;
+   }
+        .hero div p{
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+       
+
+   .flex-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 25px;
+    
+ }
+ .img-1:hover {
+    background-color: aqua;
+    box-shadow: inset;
+    transition: all 3s ease-in;
+   }
+   
+ .img-2:hover {
+    background-color: aqua;
+    box-shadow: inset;
+    transition: all 3s ease-in;
+   }
+
+ .img-3:hover {
+    background-color: aqua;
+    box-shadow: inset;
+    transition: all 3s ease-in;
+   }
+
+   .img-4:hover {
+    background-color: aqua;
+    box-shadow: inset;
+    transition: all 3s ease-in;
+   }
+   
+   
+
+
+ .img-1{
+    overflow: hidden;
+    border-radius: 15px;
+    text-decoration: solid;
+    background-color: darkgrey;
+    padding: 10px;
+    
+ }
+    
+
+    .img-2{
+     overflow: hidden;
+    border-radius: 15px;   
+    text-decoration: solid;
+    background-color: darkgrey;
+    padding: 10px;    
+        
+  }
+        
+  .img-3{
+    overflow: hidden;
+    border-radius: 15px;
+    text-decoration: solid;
+    background-color: darkgrey;
+    padding: 10px;    
+        
+    
+}
+.img-4{
+    overflow: hidden;
+    border-radius: 15px;
+    text-decoration: solid;
+    background-color: darkgrey;
+    padding: 10px;    
+    
+}
+
+
+
+
+@media screen and (max-width: 950px){
+  .hero-h2{        
+    flex-direction: column;
+  }
+     }
+  
+
+
+@media screen and (max-width: 950px) {
+  .menu_bar{
+  flex-direction: column;
+  }
+ }
+
+
+ @media screen and (max-width: 750px){
+  .flex-container{
+    flex-direction: column;
+  }
+  }
+
+
+
+
+
+        
+  .logos{
+            display: flex;
+            justify-content: space-between;
+            margin:3rem;
+            width: 5%;
+            height: 10%;
+   }

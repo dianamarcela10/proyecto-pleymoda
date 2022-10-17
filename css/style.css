@@ -1,0 +1,237 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*.............header..............*/
+
+ 
+header{
+    
+    background-color: black;
+}
+
+.menu_bar{
+   text-decoration: none;
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-end;
+   align-items: center;
+   padding: 50px;
+   gap: 1rem;
+}
+.menu_bar{
+    color: aqua;
+    transition: all 3s ease-in;
+}
+
+
+header h1{
+    color:aqua;
+    font-size: 60px;
+    font-style: oblique;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+header nav ul li{
+    list-style: none;
+    
+}     
+
+header nav ul li a{
+  text-decoration: solid;
+   color:aqua;
+   font-style: oblique;
+   font-size: 20px;
+   margin: 3%;
+}
+
+/*...............main..................*/
+.logo{
+    background-image:url(../imagenes/logo.jpg);
+     width:100% ;
+     height:60% ;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+
+
+ .hero div h2{   
+text-decoration: solid; 
+color:aqua;
+font-style: oblique;
+font-size: 45px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+ }
+
+.hero div p{
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.seccion  h3{
+color:aqua;
+font-style:oblique;
+font-size: 45px;
+text-align: center;
+ }
+
+.flex-container{
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+text-align: center;
+padding: 25px;
+
+}
+
+
+
+.img-1:hover {
+ background-color: aqua;
+ box-shadow: inset;
+ transition: all 3s ease-in;
+}
+
+.img-2:hover {
+    background-color: aqua;
+    box-shadow: inset;
+    transition: all 3s ease-in;
+   }
+   
+   .img-3:hover {
+    background-color: aqua;
+    box-shadow: inset;
+    transition: all 3s ease-in;
+   }
+   
+
+.img-1{
+flex-wrap: wrap;
+overflow: hidden;
+overflow-wrap: break-word;
+border-radius: 15px;
+text-decoration: solid;
+background-color:darkgrey;
+padding: 10px;
+
+}
+
+.img-2{
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    border-radius: 15px;
+    text-decoration: solid;
+    background-color:darkgrey;
+    padding: 10px;
+
+
+ }
+ .img-3{
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    border-radius: 15px;
+    text-decoration: solid;
+    background-color: darkgrey;
+    padding: 10px;
+}
+.seccion  h3{
+    color:aqua;
+    font-style:oblique;
+    font-size: 45px;
+    text-align: center;
+    
+ }
+ .grid-galeria{
+    width: 100%;
+    margin: top 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 550px;
+    gap: 50px;
+    padding: 25px;
+ 
+ }
+  
+ .grid-galeria div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+  }
+.grid-item{
+position: relative;
+}
+
+.grid-item h1{
+position: absolute;
+bottom: 0;
+color:aqua;
+background-color: rgba(0, 0, 0, 0.26);
+width: 100%;
+font-size: 30px;
+}
+@media screen and (max-width: 950px){
+ .grid-galeria{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 220px;
+} 
+ 
+}
+
+@media screen and (max-width: 950px){  
+    header h1{
+    flex-direction: column;    
+    }
+}
+@media screen and (max-width: 950px){
+.flex-container{
+    flex-direction: column; 
+}
+}
+@media screen and (max-width: 800px){
+.flex-container-h2{        
+  flex-direction: column;
+}
+   }
+
+ @media screen and (max-width: 900px){
+    .hero div h2 {
+    flex-direction: column;
+ }
+}
+
+@media screen and (max-width: 950px) {
+ .menu_bar{
+ flex-direction: column;
+ }
+}
+
+
+
+
+
+
+
+/*.................footer......................*/
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin:3rem;
+    width: 5%;
+    height: 10%;
+}
