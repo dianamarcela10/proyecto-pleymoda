@@ -1,0 +1,47 @@
+
+
+    /* ----header----*/
+    header{
+    
+        background-color: black;
+        h1{ 
+         color:aqua;
+         font-size: 60px;
+         font-style: oblique;
+         font-weight: 200;
+         text-align: center;
+      
+     .menu_bar{
+       text-decoration: none;
+       display: flex;
+       flex-direction: row;
+       justify-content:flex-end;
+       align-items: center;
+       padding: 50px;
+       gap: 1rem;
+       color: aqua;
+        transition: all 3s ease-in;
+        
+       }
+     }  
+      nav{ 
+       ul{ 
+         li{
+       list-style: none;
+       a{
+         text-decoration: solid;
+          color:aqua;
+          font-style: oblique;
+          font-size: 20px;
+          margin: 3%;
+          
+       }
+       
+     }     
+        
+   }    
+       
+   }   
+       
+       
+   }

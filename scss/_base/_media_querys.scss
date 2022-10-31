@@ -1,0 +1,53 @@
+/*--- media-querys*/
+
+
+@media screen and (max-width: 460px){
+    .hero div h2 p {
+    flex-direction: column;
+ }
+}
+
+@media screen and (max-width: 950px){
+    .logo {
+    flex-direction: column;
+ }
+}
+
+@media screen and (max-width: 350px){
+    .seccion h3 {
+    flex-direction: column;
+ }
+}
+
+
+
+@media screen and (max-width: 460px){
+.flex-container{
+    flex-direction: column; 
+}
+}
+
+@media screen and (max-width: 460px){
+    .grid-galeria{
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: 100px;
+   } 
+    
+   }
+
+   @media screen and (max-width: 460px){
+    .piedepagina{
+    flex-direction: column;
+       
+   } 
+    
+   }
+
+   @media screen and (max-width: 460px){
+    .logoss{
+    flex-direction: column;
+       
+   } 
+    
+   }
+ 

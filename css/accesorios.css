@@ -130,14 +130,113 @@ padding: 10px;
     padding: 10px;
 }
 
+@media screen and (max-width: 950px){
+    .header{        
+      flex-direction: column;
+    }
+       }
+    
+
+ @media screen and (max-width: 950px){
+    .hero div p{        
+      flex-direction: column;
+    }
+       }
+    
+
+   @media screen and (max-width: 750px) {
+        .menu_bar{
+        flex-direction: column;
+        }
+       }
+    
+   @media screen and (max-width: 950px){
+       .flex-container{
+        flex-direction: column;
+        }
+        }
+    
+  @media screen and (max-width: 750px){
+    .piedepagina{
+        flex-direction: column;
+            }
+            }
+        
+   @media screen and (max-width: 750px){
+     .logoss{
+      flex-direction: column;
+                }
+              }
+            
 
 
 
 
-.logos{
-    display: flex;
-    justify-content: space-between;
-    margin:3rem;
-    width: 5%;
-    height: 10%;
+.piedepagina{
+    background-color: black;
+    height: max-content;
+    margin: 0px;
+    }
+    
+
+
+
+ h1{
+    color:aqua;
+    font-size: 60px;
+    font-style: oblique;
+    text-align: center;
+
 }
+h4{
+    color:beige;
+    font-size:30px;
+    font-style: oblique;
+    text-align:center;
+    padding: 10px;
+  
+  }
+  
+   p{
+    display:flex;
+    justify-content:flex-start;
+    color:beige;
+    font-size:large;
+    font-style: oblique;
+    text-align: start;
+    margin: 5px;
+   
+  }
+
+.logoss{
+    display: flex;
+    flex-direction: row;
+  }
+
+  h2{
+
+    justify-content:flex-end;
+    color:beige;
+    font-size: 20px;
+    font-style: oblique;
+    text-align:center;
+ 
+ }
+ 
+  .logo-1{
+    margin:5%;
+    width: 10%;
+    height: 10%;
+ 
+ }
+ .logo-2{
+     margin:5%;
+     width: 10%;
+     height: 10%;
+  
+  } 
+
+
+
+
+
