@@ -10,7 +10,8 @@ box-sizing: border-box;
 header{
     
     background-color: black;
-    height: 250px;
+    height: 290px;
+    
 }
 
 .menu_bar{
@@ -20,17 +21,20 @@ header{
    flex-direction: row;
    justify-content:flex-end;
    align-items: center;
+   margin-top: -60px;
    gap: 1rem;
    color: aqua;
-  transition: all 3s ease-in;
+   transition: all 3s ease-in;
+
 }
 
 header h1{ 
     color:aqua;
-    font-size: 80px;
+    font-size: 60px;
     font-style: oblique;
     font-weight: 200;
     text-align: center;
+    margin-top: -20px;
 }
 
 
@@ -40,11 +44,16 @@ header nav ul li{
 }     
 
 header nav ul li a{
+   display: flex;
+  flex-direction: row;
+  justify-content:center;
   text-decoration: solid;
    color:aqua;
    font-style: oblique;
    font-size: 20px;
-   margin: 3%;
+
+
+
 }
 
 /*...............main..................*/
@@ -171,7 +180,7 @@ padding: 10px;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 500px;
     gap: 50px;
-    padding: 25px;
+    padding: 30px;
  
  }
   
@@ -179,13 +188,14 @@ padding: 10px;
   width: 100%;
   height: 100%;
   object-fit: cover;
+
  
   }
 .grid-item{
 position: relative;
 }
 
-.grid-item h1{
+.grid-item h4{
 position: absolute;
 bottom: 0;
 color:aqua;
@@ -214,13 +224,19 @@ font-weight: 100;
 }
 
 
-@media screen and (max-width: 460px){
+
+
+
+
+
+
+@media screen and (max-width: 950px){
     header h1{        
   flex-direction: column;
 }
    }
 
-   @media screen and (max-width: 460px) {
+   @media screen and (max-width: 800px) {
     .menu_bar{
     flex-direction: column;
     }
@@ -228,19 +244,19 @@ font-weight: 100;
 
 
 
-   @media screen and (max-width: 460px){
+   @media screen and (max-width: 880px){
     .hero div h2 p {
     flex-direction: column;
  }
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 700px){
     .logo {
     flex-direction: column;
  }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 750px){
     .seccion h3 {
     flex-direction: column;
  }
@@ -248,26 +264,42 @@ font-weight: 100;
 
 
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 600px){
 .flex-container{
     flex-direction: column; 
 }
 }
-@media screen and (max-width: 350px){
-    .flex-container-2{
-        flex-direction: column; 
-    }
-    }
     
 
 
-@media screen and (max-width: 460px){
+@media screen and (max-width: 550px){
     .grid-galeria{
-       grid-template-columns: repeat(2, 1fr);
-       grid-template-rows: 100px;
+       grid-template-columns: repeat(1, 1fr);
+       grid-template-rows: auto;
+    
    } 
     
    }
+
+   @media screen and (max-width: 460px){
+    .grid-galeria div img{
+       grid-template-rows: auto;
+        height: 300px;
+
+   } 
+    
+   }
+
+@media screen and (max-width: 460px){
+    .grid-item{
+        grid-template-rows: auto;
+        height: 300px;
+
+    } 
+    
+}
+
+
 
    @media screen and (max-width: 460px){
     .piedepagina{
@@ -277,6 +309,36 @@ font-weight: 100;
     
    }
 
+  
+ 
+   @media screen and (max-width: 460px){
+    h1{
+    flex-direction: column;
+       
+   } 
+    
+   }
+
+   @media screen and (max-width: 460px){
+    h4{
+    flex-direction: column;
+       
+   } 
+    
+   }
+
+   @media screen and (max-width: 460px){
+    p{
+    flex-direction: column;
+       
+   } 
+    
+   }
+
+
+
+
+
    @media screen and (max-width: 460px){
     .logoss{
     flex-direction: column;
@@ -284,7 +346,8 @@ font-weight: 100;
    } 
     
    }
- 
+
+
 
 /*.................footer......................*/
 .piedepagina{
@@ -295,7 +358,7 @@ font-weight: 100;
 
 h1{
     color:aqua;
-    font-size: 60px;
+    font-size: 40px;
     font-style: oblique;
     text-align: center;
     padding: 50px;

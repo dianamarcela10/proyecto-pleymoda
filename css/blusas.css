@@ -38,7 +38,7 @@ header nav ul li{
 header nav ul li a{
   text-decoration: solid;
    color:aqua;
-   font-style: obliqueS;
+   font-style: oblique;
    font-size: 20px;
     margin: 3%;
 }

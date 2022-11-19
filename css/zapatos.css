@@ -34,7 +34,7 @@
     header nav ul li a{
             text-decoration: solid;
             color:aqua;
-            font-style: obliqueS;
+            font-style: oblique;
             font-size: 20px;
              margin: 3%;
          }
@@ -130,27 +130,27 @@
 
 
 
- @media screen and (max-width: 350px){
+ @media screen and (max-width: 850px){
     .header{        
       flex-direction: column;
     }
        }
 
 
-  @media screen and (max-width: 350px){
+  @media screen and (max-width: 750px){
   .hero-h1{        
      flex-direction: column;
   }
     }
     
 
- @media screen and (max-width: 350px) {
+ @media screen and (max-width: 550px) {
   .menu_bar{
   flex-direction: column;
   }
  }
  
- @media screen and (max-width: 350px){
+ @media screen and (max-width: 450px){
     .hero-h2{        
        flex-direction: column;
     }
