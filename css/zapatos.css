@@ -130,44 +130,44 @@
 
 
 
- @media screen and (max-width: 850px){
+ @media screen and (max-width: 300px){
     .header{        
       flex-direction: column;
     }
        }
 
 
-  @media screen and (max-width: 750px){
+  @media screen and (max-width: 300px){
   .hero-h1{        
      flex-direction: column;
   }
     }
     
 
- @media screen and (max-width: 550px) {
+ @media screen and (max-width: 300px) {
   .menu_bar{
   flex-direction: column;
   }
  }
  
- @media screen and (max-width: 450px){
+ @media screen and (max-width: 300px){
     .hero-h2{        
        flex-direction: column;
     }
       }
 
- @media screen and (max-width: 350px){
+ @media screen and (max-width: 300px){
  .hero-h3{        
     flex-direction: column;
     }
 }
 
- @media screen and (max-width: 350px){
+ @media screen and (max-width: 300px){
    .flex-container{
      flex-direction: column;
   }
  }  
- @media screen and (max-width: 350px){
+ @media screen and (max-width: 300px){
     .flex-container-2{
       flex-direction: column;
       }
@@ -175,13 +175,13 @@
  
  
  
- @media screen and (max-width: 350px){
+ @media screen and (max-width: 300px){
     .piedepagina{
       flex-direction: column;
     }
     }
 
- @media screen and (max-width: 350px){
+ @media screen and (max-width: 300px){
   .logoss{
     flex-direction: column;
      }
